@@ -1,10 +1,10 @@
 import streamlit as st
-from utils import load_css
+from utils import setup_page
 
 st.set_page_config(page_title="Treasurety Adquiere · CEMOSA", layout="wide")
-load_css()
+setup_page()
 
-st.markdown('<div style="margin-bottom:2rem;"><span class="eyebrow">TREASURETY ADQUIERE</span><h1 style="color:#F0F7FF;font-size:2.2rem;font-weight:800;margin:0.3rem 0 0.6rem;">Registro de Evidencia</h1><p style="color:#8BA3C0;font-size:1rem;max-width:700px;line-height:1.7;">De la entrega física al CER criptográfico. Cada paso es obligatorio y verificable.</p></div>', unsafe_allow_html=True)
+st.markdown('<div style="margin-bottom:2rem;"><span class="eyebrow">TREASURETY ADQUIERE</span><h1 style="color:#FFFFFF;font-size:2.2rem;font-weight:800;margin:0.3rem 0 0.2rem;">Registro de Evidencia</h1><p style="color:#8BA3C0;font-size:1rem;max-width:700px;line-height:1.7;margin-top:0;">De la entrega física al CER criptográfico. Cada paso es obligatorio y verificable.</p></div>', unsafe_allow_html=True)
 
 # ── PASO 1 · DOCUMENTO ────────────────────────────────────────────────────────
 st.markdown('<span class="step-label">PASO 1 · DOCUMENTO</span>', unsafe_allow_html=True)

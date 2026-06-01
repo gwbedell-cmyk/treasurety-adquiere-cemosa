@@ -1,8 +1,8 @@
 import streamlit as st
-from utils import load_css
+from utils import setup_page
 
 st.set_page_config(page_title="Resumen Ejecutivo · CEMOSA", layout="wide")
-load_css()
+setup_page()
 
 # ── Page header ───────────────────────────────────────────────────────────────
 st.markdown("""

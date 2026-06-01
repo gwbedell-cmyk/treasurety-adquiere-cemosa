@@ -1,5 +1,5 @@
 import streamlit as st
-from utils import load_css
+from utils import setup_page
 
 st.set_page_config(
     page_title="Treasurety para CEMOSA",
@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-load_css()
+setup_page()
 
 # ── Hero ──────────────────────────────────────────────────────────────────────
 st.markdown("""
@@ -91,7 +91,7 @@ st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
 # ── Case study teaser ─────────────────────────────────────────────────────────
 st.markdown("""
 <span class="eyebrow">CASO DE USO</span>
-<h2 style="color:#F0F7FF;font-size:1.55rem;margin-top:0.2rem;margin-bottom:1.25rem;">
+<h2 style="color:#FFFFFF !important;font-size:1.55rem;font-weight:800;margin-top:0.2rem;margin-bottom:1.25rem;">
   Recepción de Hormigón en Obra
 </h2>
 """, unsafe_allow_html=True)

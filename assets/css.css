@@ -63,8 +63,21 @@ footer,
     display: none !important;
 }
 
-/* Keep header visible for mobile hamburger */
-/* [data-testid="stHeader"] intentionally NOT hidden */
+/* Header: transparent so it blends with the dark background */
+[data-testid="stHeader"] {
+    background: transparent !important;
+    border-bottom: none !important;
+}
+
+/* Ensure headings inside st.markdown are always white */
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3,
+.stMarkdown h1,
+.stMarkdown h2,
+.stMarkdown h3 {
+    color: #FFFFFF !important;
+}
 
 /* --- Eyebrow labels --- */
 .eyebrow {

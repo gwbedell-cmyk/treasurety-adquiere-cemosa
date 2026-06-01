@@ -1,8 +1,8 @@
 import streamlit as st
-from utils import load_css
+from utils import setup_page
 
 st.set_page_config(page_title="Conciliación · CEMOSA", layout="wide")
-load_css()
+setup_page()
 
 st.markdown('<div style="margin-bottom:2rem;"><span class="eyebrow">CONCILIACIÓN</span><h1 style="color:#F0F7FF;font-size:2.2rem;font-weight:800;margin:0.3rem 0 0.6rem;">Factura vs Cadena de Evidencia</h1><p style="color:#8BA3C0;font-size:1rem;max-width:760px;line-height:1.7;">Treasurety compara automáticamente lo que el proveedor factura con lo que el equipo en obra evidenció.</p></div>', unsafe_allow_html=True)
 
