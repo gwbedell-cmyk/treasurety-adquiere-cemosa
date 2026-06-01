@@ -32,7 +32,7 @@ with col_left:
 <div class="wa-user-time">10:21 ✓✓</div>
 </div>
 <div>
-<div class="wa-bot">Empleado identificado.<br><br>Nombre: Pedro Martín Luque<br>Cargo: Jefe de Obra<br>Proyecto: RADIO 5<br><br>¿Es correcta esta información?<br>1. Sí &nbsp; 2. No</div>
+<div class="wa-bot">Empleado identificado.<br>Nombre: Pedro Martín Luque<br>Cargo: Jefe de Obra<br>Proyecto: RADIO 5<br>¿Es correcta esta información?<br>1. Sí &nbsp; 2. No</div>
 <div class="wa-bot-time">10:21</div>
 </div>
 <div style="display:flex;flex-direction:column;align-items:flex-end;">
@@ -48,7 +48,7 @@ with col_left:
 <div class="wa-user-time">10:23 ✓✓</div>
 </div>
 <div>
-<div class="wa-bot">Documento detectado.<br><br>Tipo: Albarán de Hormigón<br>Proveedor: Áridos y Hormigones Hispalenses<br>Número: 0149185 · Cantidad: 9 m³ · Proyecto: RADIO 5</div>
+<div class="wa-bot">Documento detectado.<br>Tipo: Albarán de Hormigón<br>Proveedor: Áridos y Hormigones Hispalenses<br>Número: 0149185 · Cantidad: 9 m³ · Proyecto: RADIO 5</div>
 <div class="wa-bot-time">10:23</div>
 </div>
 </div>
@@ -103,7 +103,7 @@ with col_right:
 <div class="wa-user-time">10:24 ✓✓</div>
 </div>
 <div>
-<div class="wa-bot">Resumen del CER<br><br>Empleado: Pedro Martín Luque<br>Documento: 0149185<br>Proveedor: Áridos y Hormigones Hispalenses<br>Cantidad: 9 m³ · Proyecto: RADIO 5<br><br>¿Confirma el envío?<br>1. Confirmar &nbsp; 2. Cancelar</div>
+<div class="wa-bot">Resumen del CER<br>Empleado: Pedro Martín Luque<br>Documento: 0149185<br>Proveedor: Áridos y Hormigones Hispalenses<br>Cantidad: 9 m³ · Proyecto: RADIO 5<br>¿Confirma el envío? 1. Confirmar &nbsp; 2. Cancelar</div>
 <div class="wa-bot-time">10:24</div>
 </div>
 <div style="display:flex;flex-direction:column;align-items:flex-end;">
@@ -121,7 +121,7 @@ with col_right:
 <span class="wa-hash-label">HASH CRIPTOGRÁFICA · SHA-256</span><br>
 7F4A8C91E3D5A47B<br>1A1D93C7B5E28D66<br>F91A1B83
 </div>
-<div style="margin-top:0.65rem;padding:0.5rem 0.6rem;background:rgba(34,211,165,0.08);border:1px solid rgba(34,211,165,0.25);border-radius:6px;font-size:0.72rem;color:#22D3A5;font-weight:600;text-align:center;">Incorporado a la Cadena de Evidencia</div>
+<div style="margin-top:0.3rem;padding:0.28rem 0.5rem;background:rgba(34,211,165,0.08);border:1px solid rgba(34,211,165,0.25);border-radius:6px;font-size:0.68rem;color:#22D3A5;font-weight:600;text-align:center;">Incorporado a la Cadena de Evidencia</div>
 </div>
 <div class="wa-bot-time">10:24</div>
 </div>
