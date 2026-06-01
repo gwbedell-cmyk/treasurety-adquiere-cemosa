@@ -1,8 +1,9 @@
 import streamlit as st
-from utils import setup_page
+from utils import setup_page, nav_bar
 
 st.set_page_config(page_title="Treasurety Adquiere · CEMOSA", layout="wide")
 setup_page()
+nav_bar("REGISTRO")
 
 st.markdown('<div style="margin-bottom:2rem;"><span class="eyebrow">TREASURETY ADQUIERE</span><div class="page-h1">Registro de Evidencia</div><p style="color:#8BA3C0;font-size:1rem;max-width:700px;line-height:1.7;margin-top:0;">De la entrega física al CER criptográfico. Cada paso es obligatorio y verificable.</p></div>', unsafe_allow_html=True)
 

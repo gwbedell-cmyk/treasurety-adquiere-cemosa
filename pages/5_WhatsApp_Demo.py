@@ -1,8 +1,9 @@
 import streamlit as st
-from utils import setup_page
+from utils import setup_page, nav_bar
 
 st.set_page_config(page_title="Demo WhatsApp · CEMOSA", layout="wide")
 setup_page()
+nav_bar("DEMO")
 
 st.markdown('<div style="margin-bottom:1.5rem;"><span class="eyebrow">CAPTURA EN SITU</span><div class="page-h1">Demo WhatsApp</div><p style="color:#8BA3C0;font-size:1rem;max-width:760px;line-height:1.7;">El Jefe de Obra captura evidencia desde obra usando WhatsApp. Identidad verificada, atestaciones confirmadas, CER generado.</p></div>', unsafe_allow_html=True)
 st.markdown('<div class="info-box" style="max-width:760px;margin-bottom:2rem;">El canal de captura no importa. Lo que importa es la evidencia que genera Treasurety. WhatsApp es simplemente el punto de entrada más natural para el personal en obra.</div>', unsafe_allow_html=True)

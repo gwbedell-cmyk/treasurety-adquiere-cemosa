@@ -21,6 +21,70 @@ body, .stApp {
     padding-bottom: 4rem !important;
 }
 
+/* --- Navigation Bar --- */
+.nav-bar {
+    background: linear-gradient(90deg, #0D2746 0%, #071525 100%);
+    border-bottom: 1px solid rgba(99,184,255,0.2);
+    padding: 0 !important;
+    margin: -2rem -1.5rem 2rem -1.5rem !important;
+    position: relative;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    height: 60px;
+}
+
+.nav-logo {
+    color: #63B8FF;
+    font-size: 0.85rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-right: 2rem;
+}
+
+.nav-logo:hover {
+    color: #A8D7FF;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex: 1;
+}
+
+.nav-link {
+    color: #8BA3C0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #63B8FF;
+    border-bottom-color: #63B8FF;
+}
+
+.nav-link.active {
+    color: #FFFFFF;
+    border-bottom-color: #63B8FF;
+}
+
 /* --- Headings --- */
 h1, h2, h3, h4, h5, h6 {
     color: #F0F7FF !important;

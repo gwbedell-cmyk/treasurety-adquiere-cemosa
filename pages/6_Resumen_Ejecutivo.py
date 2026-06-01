@@ -1,8 +1,9 @@
 import streamlit as st
-from utils import setup_page
+from utils import setup_page, nav_bar
 
 st.set_page_config(page_title="Resumen Ejecutivo · CEMOSA", layout="wide")
 setup_page()
+nav_bar("RESUMEN")
 
 # ── Page header ───────────────────────────────────────────────────────────────
 st.markdown("""

@@ -1,5 +1,5 @@
 import streamlit as st
-from utils import setup_page
+from utils import setup_page, nav_bar
 
 st.set_page_config(
     page_title="Treasurety para CEMOSA",
@@ -8,6 +8,7 @@ st.set_page_config(
 )
 
 setup_page()
+nav_bar("HOME")
 
 # ── Hero ──────────────────────────────────────────────────────────────────────
 st.markdown("""

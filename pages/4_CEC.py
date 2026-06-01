@@ -1,8 +1,9 @@
 import streamlit as st
-from utils import setup_page
+from utils import setup_page, nav_bar
 
 st.set_page_config(page_title="CEC · CEMOSA", layout="wide")
 setup_page()
+nav_bar("CEC")
 
 st.markdown('<div style="margin-bottom:2rem;"><span class="eyebrow">CEC · CONTENEDOR DE EXPEDIENTE CONCILIADO</span><div class="page-h1">Expediente listo para autorización</div><p style="color:#8BA3C0;font-size:1rem;max-width:760px;line-height:1.7;">El CEC encapsula la factura, los CERs, el resultado de conciliación y un hash verificable. Es la entrada al proceso de autorización de pago.</p></div>', unsafe_allow_html=True)
 
