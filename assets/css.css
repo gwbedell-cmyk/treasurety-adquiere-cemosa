@@ -110,12 +110,34 @@ footer,
 }
 
 .hero-title {
-    font-size: 2.6rem !important;
-    font-weight: 800 !important;
-    color: #F0F7FF !important;
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: #FFFFFF;
     line-height: 1.15;
     margin: 0.5rem 0 1rem 0;
     letter-spacing: -0.02em;
+}
+
+/* Page title div — replaces h1 to bypass Streamlit heading colour overrides */
+.page-h1 {
+    color: #FFFFFF;
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin: 0.3rem 0 0.2rem;
+}
+
+/* ── Sidebar logo — 200% scale ── */
+[data-testid="stSidebarHeader"] img,
+[data-testid="stLogo"] img {
+    width: 260px !important;
+    max-width: none !important;
+    height: auto !important;
+    display: block !important;
+}
+[data-testid="stSidebarHeader"] {
+    padding: 1.5rem 1rem 1rem !important;
 }
 
 .hero-subtitle {

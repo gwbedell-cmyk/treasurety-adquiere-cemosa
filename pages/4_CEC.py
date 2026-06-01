@@ -4,7 +4,7 @@ from utils import setup_page
 st.set_page_config(page_title="CEC · CEMOSA", layout="wide")
 setup_page()
 
-st.markdown('<div style="margin-bottom:2rem;"><span class="eyebrow">CEC · CONTENEDOR DE EXPEDIENTE CONCILIADO</span><h1 style="color:#F0F7FF;font-size:2.2rem;font-weight:800;margin:0.3rem 0 0.6rem;">Expediente listo para autorización</h1><p style="color:#8BA3C0;font-size:1rem;max-width:760px;line-height:1.7;">El CEC encapsula la factura, los CERs, el resultado de conciliación y un hash verificable. Es la entrada al proceso de autorización de pago.</p></div>', unsafe_allow_html=True)
+st.markdown('<div style="margin-bottom:2rem;"><span class="eyebrow">CEC · CONTENEDOR DE EXPEDIENTE CONCILIADO</span><div class="page-h1">Expediente listo para autorización</div><p style="color:#8BA3C0;font-size:1rem;max-width:760px;line-height:1.7;">El CEC encapsula la factura, los CERs, el resultado de conciliación y un hash verificable. Es la entrada al proceso de autorización de pago.</p></div>', unsafe_allow_html=True)
 
 col_main, col_side = st.columns([2, 1])
 

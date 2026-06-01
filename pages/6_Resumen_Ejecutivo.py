@@ -8,9 +8,9 @@ setup_page()
 st.markdown("""
 <div style="margin-bottom:2rem;">
   <span class="eyebrow">PARA DIRECCIÓN Y COMITÉS EJECUTIVOS</span>
-  <h1 style="color:#F0F7FF;font-size:2.2rem;font-weight:800;margin:0.3rem 0 0.6rem;">
+  <div class="page-h1">
     Resumen Ejecutivo
-  </h1>
+  </div>
   <p style="color:#8BA3C0;font-size:1rem;max-width:700px;line-height:1.7;">
     Tres preguntas. Respuestas directas.
   </p>

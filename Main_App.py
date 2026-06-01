@@ -13,7 +13,7 @@ setup_page()
 st.markdown("""
 <div class="hero-card">
   <span class="eyebrow">TREASURETY PARA CEMOSA · DOCUMENTO EJECUTIVO</span>
-  <h1 class="hero-title">De la evidencia operativa<br>al pago autorizado</h1>
+  <div class="hero-title">De la evidencia operativa<br>al pago autorizado</div>
   <p class="hero-subtitle">
     Infraestructura de confianza para ingeniería, construcción e infraestructura.
     Transformando albaranes físicos en evidencia digital verificable.
@@ -91,9 +91,9 @@ st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
 # ── Case study teaser ─────────────────────────────────────────────────────────
 st.markdown("""
 <span class="eyebrow">CASO DE USO</span>
-<h2 style="color:#FFFFFF !important;font-size:1.55rem;font-weight:800;margin-top:0.2rem;margin-bottom:1.25rem;">
+<div style="color:#FFFFFF;font-size:1.55rem;font-weight:800;margin-top:0.2rem;margin-bottom:1.25rem;line-height:1.2;letter-spacing:-0.01em;">
   Recepción de Hormigón en Obra
-</h2>
+</div>
 """, unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns(3)
