@@ -66,6 +66,7 @@ body, .stApp {
 }
 
 .nav-bar-spacer + div[data-testid="stHorizontalBlock"] button {
+    background: transparent !important;
     background-color: transparent !important;
     color: #9fb2c8 !important;
     border: none !important;
@@ -90,23 +91,47 @@ body, .stApp {
 .nav-bar-spacer + div[data-testid="stHorizontalBlock"] button:hover {
     color: #63B8FF !important;
     border-bottom-color: #63B8FF !important;
+    background: transparent !important;
     background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.nav-bar-spacer + div[data-testid="stHorizontalBlock"] button:active {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+    border-bottom: 2px solid #63B8FF !important;
+    color: #FFFFFF !important;
 }
 
 .nav-bar-spacer + div[data-testid="stHorizontalBlock"] button:focus {
+    background: transparent !important;
+    background-color: transparent !important;
     outline: none !important;
     box-shadow: none !important;
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
 }
 
 .nav-bar-spacer + div[data-testid="stHorizontalBlock"] button:focus-visible {
-    outline: 1px solid rgba(99,184,255,0.45) !important;
-    outline-offset: -2px !important;
-    border-radius: 4px !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
 }
 
 .nav-bar-spacer + div[data-testid="stHorizontalBlock"] button[aria-current="page"] {
     color: #FFFFFF !important;
-    border-bottom-color: #63B8FF !important;
+    border-bottom: 2px solid #63B8FF !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 /* --- Headings --- */
