@@ -9,57 +9,7 @@ st.markdown('<div style="margin-bottom:2rem;"><span class="eyebrow">TREASURETY A
 # ── PASO 1 · DOCUMENTO ────────────────────────────────────────────────────────
 st.markdown('<span class="step-label">PASO 1 · DOCUMENTO</span>', unsafe_allow_html=True)
 
-st.markdown("""
-<div class="albaran">
-  <div class="albaran-header">
-    <div>
-      <div class="albaran-company">ÁRIDOS Y HORMIGONES HISPALENSES, S.L.</div>
-      <div style="color:rgba(255,255,255,0.65);font-size:0.71rem;margin-top:0.2rem;">Pol. Ind. La Isla · Dos Hermanas (Sevilla) · CIF B-41125405 · Tel. 954 88 12 21</div>
-    </div>
-    <div class="albaran-number">
-      <div style="font-size:0.65rem;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.60);">ALBARÁN DE ENTREGA</div>
-      <div style="font-size:1.3rem;font-weight:900;color:#63B8FF;letter-spacing:0.02em;">Nº 0149185</div>
-    </div>
-  </div>
-  <div class="albaran-body">
-    <div class="albaran-section">
-      <div class="albaran-section-title">Datos del cliente y obra</div>
-      <div class="albaran-info-grid">
-        <div class="albaran-info-row"><span class="albaran-info-label">Cliente</span><span class="albaran-info-value">CEMOSA</span></div>
-        <div class="albaran-info-row"><span class="albaran-info-label">Obra</span><span class="albaran-info-value">Centro Logístico Levante</span></div>
-        <div class="albaran-info-row"><span class="albaran-info-label">Proyecto</span><span class="albaran-info-value">RADIO 5</span></div>
-        <div class="albaran-info-row"><span class="albaran-info-label">Dirección</span><span class="albaran-info-value">C/ Avda. Andalucía 101, Málaga</span></div>
-        <div class="albaran-info-row"><span class="albaran-info-label">Fecha</span><span class="albaran-info-value">28/05/2026</span></div>
-        <div class="albaran-info-row"><span class="albaran-info-label">Hora salida</span><span class="albaran-info-value">09:55</span></div>
-        <div class="albaran-info-row"><span class="albaran-info-label">Hora llegada</span><span class="albaran-info-value">10:15</span></div>
-      </div>
-    </div>
-    <div class="albaran-section">
-      <div class="albaran-section-title">Detalle del suministro</div>
-      <table class="albaran-table">
-        <thead><tr><th>Código</th><th>Descripción</th><th style="text-align:right;">Cantidad</th><th style="text-align:center;">U.M.</th></tr></thead>
-        <tbody><tr><td><strong>HA-25</strong></td><td>Hormigón HA-25/B/20a</td><td style="text-align:right;font-weight:700;">9,00</td><td style="text-align:center;">m³</td></tr></tbody>
-      </table>
-    </div>
-    <div class="albaran-section">
-      <div class="albaran-section-title">Datos del transporte</div>
-      <div class="albaran-info-grid">
-        <div class="albaran-info-row"><span class="albaran-info-label">Matrícula</span><span class="albaran-info-value">3422 XLM</span></div>
-        <div class="albaran-info-row"><span class="albaran-info-label">Conductor</span><span class="albaran-info-value">J. Fernández R.</span></div>
-        <div class="albaran-info-row"><span class="albaran-info-label">Planta origen</span><span class="albaran-info-value">Planta Sevilla 2</span></div>
-      </div>
-    </div>
-    <div class="albaran-section">
-      <div class="albaran-section-title">Observaciones</div>
-      <div class="albaran-obs">Entrega confirmada: Recepción en zona de bombeo nivel 1</div>
-    </div>
-    <div class="albaran-signatures">
-      <div class="albaran-sig-box"><div class="albaran-sig-title">FIRMA CONDUCTOR / TRANSPORTISTA</div><div class="albaran-sig-area"></div></div>
-      <div class="albaran-sig-box"><div class="albaran-sig-title">FIRMA RECEPTOR / JEFE DE OBRA</div><div class="albaran-sig-area"></div></div>
-    </div>
-  </div>
-</div>
-""", unsafe_allow_html=True)
+st.markdown('<div class="albaran"><div class="albaran-header"><div><div class="albaran-company">ÁRIDOS Y HORMIGONES HISPALENSES, S.L.</div><div style="color:rgba(255,255,255,0.65);font-size:0.71rem;margin-top:0.2rem;">Pol. Ind. La Isla · Dos Hermanas (Sevilla) · CIF B-41125405 · Tel. 954 88 12 21</div></div><div class="albaran-number"><div style="font-size:0.65rem;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.60);">ALBARÁN DE ENTREGA</div><div style="font-size:1.3rem;font-weight:900;color:#63B8FF;letter-spacing:0.02em;">Nº 0149185</div></div></div><div class="albaran-body"><div class="albaran-section"><div class="albaran-section-title">Datos del cliente y obra</div><div class="albaran-info-grid"><div class="albaran-info-row"><span class="albaran-info-label">Cliente</span><span class="albaran-info-value">CEMOSA</span></div><div class="albaran-info-row"><span class="albaran-info-label">Obra</span><span class="albaran-info-value">Centro Logístico Levante</span></div><div class="albaran-info-row"><span class="albaran-info-label">Proyecto</span><span class="albaran-info-value">RADIO 5</span></div><div class="albaran-info-row"><span class="albaran-info-label">Dirección</span><span class="albaran-info-value">C/ Avda. Andalucía 101, Málaga</span></div><div class="albaran-info-row"><span class="albaran-info-label">Fecha</span><span class="albaran-info-value">28/05/2026</span></div><div class="albaran-info-row"><span class="albaran-info-label">Hora salida</span><span class="albaran-info-value">09:55</span></div><div class="albaran-info-row"><span class="albaran-info-label">Hora llegada</span><span class="albaran-info-value">10:15</span></div></div></div><div class="albaran-section"><div class="albaran-section-title">Detalle del suministro</div><table class="albaran-table"><thead><tr><th>Código</th><th>Descripción</th><th style="text-align:right;">Cantidad</th><th style="text-align:center;">U.M.</th></tr></thead><tbody><tr><td><strong>HA-25</strong></td><td>Hormigón HA-25/B/20a</td><td style="text-align:right;font-weight:700;">9,00</td><td style="text-align:center;">m³</td></tr></tbody></table></div><div class="albaran-section"><div class="albaran-section-title">Datos del transporte</div><div class="albaran-info-grid"><div class="albaran-info-row"><span class="albaran-info-label">Matrícula</span><span class="albaran-info-value">3422 XLM</span></div><div class="albaran-info-row"><span class="albaran-info-label">Conductor</span><span class="albaran-info-value">J. Fernández R.</span></div><div class="albaran-info-row"><span class="albaran-info-label">Planta origen</span><span class="albaran-info-value">Planta Sevilla 2</span></div></div></div><div class="albaran-section"><div class="albaran-section-title">Observaciones</div><div class="albaran-obs">Entrega confirmada: Recepción en zona de bombeo nivel 1</div></div><div class="albaran-signatures"><div class="albaran-sig-box"><div class="albaran-sig-title">FIRMA CONDUCTOR / TRANSPORTISTA</div><div class="albaran-sig-area"></div></div><div class="albaran-sig-box"><div class="albaran-sig-title">FIRMA RECEPTOR / JEFE DE OBRA</div><div class="albaran-sig-area"></div></div></div></div></div>', unsafe_allow_html=True)
 
 st.markdown('<div class="step-arrow">↓</div>', unsafe_allow_html=True)
 
