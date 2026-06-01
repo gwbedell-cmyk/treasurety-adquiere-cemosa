@@ -9,9 +9,5 @@ def load_css():
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 def setup_page():
-    """Load CSS and display the Treasurety logo in the sidebar."""
+    """Load CSS."""
     load_css()
-    try:
-        st.logo(_LOGO)
-    except Exception:
-        pass
