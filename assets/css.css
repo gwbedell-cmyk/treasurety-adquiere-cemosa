@@ -24,11 +24,14 @@ body, .stApp {
 /* --- Navigation Bar --- */
 .nav-bar-spacer {
     margin: -2rem -1.5rem 1.25rem -1.5rem !important;
-    padding: 0.5rem 1.5rem !important;
+    padding: 0 1.5rem !important;
     border-bottom: 1px solid rgba(99,184,255,0.15) !important;
     height: 56px !important;
     display: flex !important;
     align-items: center !important;
+    gap: 0.5rem !important;
+    position: relative !important;
+    z-index: 10 !important;
 }
 
 .nav-logo {
@@ -39,18 +42,30 @@ body, .stApp {
     white-space: nowrap;
     display: flex;
     align-items: center;
-    height: 100%;
-    margin-right: 2rem;
+    height: 56px;
+    margin-right: 1rem;
+    padding: 0;
 }
 
-/* Navigation page_link styling */
-[data-testid="element-container"] {
-    height: 100%;
-    display: flex;
-    align-items: center;
+/* Force nav columns into horizontal layout */
+.nav-bar-spacer + div[data-testid="stHorizontalBlock"] {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    height: 56px !important;
+    margin-top: -56px !important;
+    padding-left: 1.5rem !important;
+    gap: 0 !important;
 }
 
-button[kind="link"] {
+.nav-bar-spacer + div[data-testid="stHorizontalBlock"] > div {
+    display: flex !important;
+    align-items: center !important;
+    height: 56px !important;
+    flex: 1 !important;
+}
+
+.nav-bar-spacer + div[data-testid="stHorizontalBlock"] button {
     background-color: transparent !important;
     color: #9fb2c8 !important;
     border: none !important;
@@ -64,66 +79,33 @@ button[kind="link"] {
     transition: color 0.15s ease, border-color 0.15s ease !important;
     text-transform: uppercase !important;
     cursor: pointer !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
     outline: none !important;
     box-shadow: none !important;
     margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
-button[kind="link"]:hover {
+.nav-bar-spacer + div[data-testid="stHorizontalBlock"] button:hover {
     color: #63B8FF !important;
     border-bottom-color: #63B8FF !important;
     background-color: transparent !important;
-    box-shadow: none !important;
 }
 
-button[kind="link"]:focus {
+.nav-bar-spacer + div[data-testid="stHorizontalBlock"] button:focus {
     outline: none !important;
     box-shadow: none !important;
-    background-color: transparent !important;
 }
 
-button[kind="link"]:focus-visible {
+.nav-bar-spacer + div[data-testid="stHorizontalBlock"] button:focus-visible {
     outline: 1px solid rgba(99,184,255,0.45) !important;
     outline-offset: -2px !important;
     border-radius: 4px !important;
 }
 
-button[kind="link"][aria-current="page"] {
+.nav-bar-spacer + div[data-testid="stHorizontalBlock"] button[aria-current="page"] {
     color: #FFFFFF !important;
-    border-bottom-color: #63B8FF !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
-    outline: none !important;
-}
-
-/* Fallback: style any button in nav container */
-.nav-bar-spacer ~ * button {
-    background-color: transparent !important;
-    color: #9fb2c8 !important;
-    border: none !important;
-    border-bottom: 2px solid transparent !important;
-    font-size: 0.7rem !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.09em !important;
-    padding: 0 0.75rem !important;
-    height: 56px !important;
-    white-space: nowrap !important;
-    transition: color 0.15s ease, border-color 0.15s ease !important;
-    text-transform: uppercase !important;
-    cursor: pointer !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    outline: none !important;
-    box-shadow: none !important;
-    margin: 0 !important;
-}
-
-.nav-bar-spacer ~ * button:hover {
-    color: #63B8FF !important;
     border-bottom-color: #63B8FF !important;
 }
 
