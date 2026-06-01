@@ -17,60 +17,86 @@ body, .stApp {
 /* --- Max-width container --- */
 .block-container {
     max-width: 1200px !important;
-    padding-top: 2rem !important;
+    padding-top: 0 !important;
     padding-bottom: 4rem !important;
 }
 
 /* --- Navigation Bar --- */
 .nav-bar-spacer {
-    margin-bottom: 1.5rem;
-    padding: 1rem 0;
-    border-bottom: 1px solid rgba(99,184,255,0.2);
+    margin: -2rem -1.5rem 1.25rem -1.5rem !important;
+    padding: 0.5rem 1.5rem !important;
+    border-bottom: 1px solid rgba(99,184,255,0.15) !important;
+    height: 56px !important;
+    display: flex !important;
+    align-items: center !important;
 }
 
 .nav-logo {
     color: #63B8FF;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 900;
-    letter-spacing: 0.1em;
-    padding: 0.75rem 0;
+    letter-spacing: 0.12em;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 2rem;
+}
+
+/* Navigation page_link styling */
+.stPageLink {
+    height: 100%;
     display: flex;
     align-items: center;
 }
 
-/* Style page_link buttons in nav */
-[data-testid="stElementContainer"] {
-    padding: 0;
-}
-
-.stPageLink {
-    text-decoration: none;
-}
-
 .stPageLink button {
-    width: 100% !important;
     background-color: transparent !important;
-    color: #8BA3C0 !important;
+    color: #9fb2c8 !important;
     border: none !important;
     border-bottom: 2px solid transparent !important;
-    font-size: 0.75rem !important;
+    font-size: 0.7rem !important;
     font-weight: 600 !important;
-    letter-spacing: 0.08em !important;
-    padding: 0.5rem 0.5rem !important;
+    letter-spacing: 0.09em !important;
+    padding: 0 0.75rem !important;
+    height: 56px !important;
     white-space: nowrap !important;
-    transition: all 0.2s ease !important;
+    transition: color 0.15s ease, border-color 0.15s ease !important;
     text-transform: uppercase !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
 }
 
 .stPageLink button:hover {
     color: #63B8FF !important;
     border-bottom-color: #63B8FF !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.stPageLink button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.stPageLink button:focus-visible {
+    outline: 1px solid rgba(99,184,255,0.45) !important;
+    outline-offset: -2px !important;
+    border-radius: 4px !important;
 }
 
 .stPageLink button[aria-current="page"] {
     color: #FFFFFF !important;
     border-bottom-color: #63B8FF !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 /* --- Headings --- */
