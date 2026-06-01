@@ -44,13 +44,13 @@ body, .stApp {
 }
 
 /* Navigation page_link styling */
-.stPageLink {
+[data-testid="element-container"] {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.stPageLink button {
+button[kind="link"] {
     background-color: transparent !important;
     color: #9fb2c8 !important;
     border: none !important;
@@ -72,31 +72,59 @@ body, .stApp {
     margin: 0 !important;
 }
 
-.stPageLink button:hover {
+button[kind="link"]:hover {
     color: #63B8FF !important;
     border-bottom-color: #63B8FF !important;
     background-color: transparent !important;
     box-shadow: none !important;
 }
 
-.stPageLink button:focus {
+button[kind="link"]:focus {
     outline: none !important;
     box-shadow: none !important;
     background-color: transparent !important;
 }
 
-.stPageLink button:focus-visible {
+button[kind="link"]:focus-visible {
     outline: 1px solid rgba(99,184,255,0.45) !important;
     outline-offset: -2px !important;
     border-radius: 4px !important;
 }
 
-.stPageLink button[aria-current="page"] {
+button[kind="link"][aria-current="page"] {
     color: #FFFFFF !important;
     border-bottom-color: #63B8FF !important;
     background-color: transparent !important;
     box-shadow: none !important;
     outline: none !important;
+}
+
+/* Fallback: style any button in nav container */
+.nav-bar-spacer ~ * button {
+    background-color: transparent !important;
+    color: #9fb2c8 !important;
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.09em !important;
+    padding: 0 0.75rem !important;
+    height: 56px !important;
+    white-space: nowrap !important;
+    transition: color 0.15s ease, border-color 0.15s ease !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+.nav-bar-spacer ~ * button:hover {
+    color: #63B8FF !important;
+    border-bottom-color: #63B8FF !important;
 }
 
 /* --- Headings --- */
